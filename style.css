@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100%;
+}
+
+header {
+  background-color: #1d83d6;
+  padding: 1rem;
+}
+
+.main-content {
+  padding: 1rem 3rem;
+}
+
+.articles {
+  width: 70%;
+}
+
+aside {
+  background-color: #fca8d7;
+  width: 30%;
+}
+
+footer {
+  background-color: #262c30;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
